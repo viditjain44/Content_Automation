@@ -11,11 +11,11 @@ function SearchSection({ onSearchInput }: any) {
       <div className="relative z-10 text-center">
         <h2 className="text-4xl font-extrabold tracking-wide">Find Your Perfect Template</h2>
         <p className="text-lg opacity-80 mt-2">What would you like to create today?</p>
-
+ 
         {/* Search Bar */}
         <div className="w-full flex justify-center mt-6">
   <div className="flex items-center gap-2 p-3 border border-gray-400 bg-white/10 backdrop-blur-md rounded-full shadow-lg w-[80%] max-w-xl transition-all hover:bg-white/20">
-    <Search className="text-gray-300" />
+    <Search className="text-gray-300"/>
     <input
       type="text"
       placeholder="Search templates..."
